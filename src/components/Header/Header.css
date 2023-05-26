@@ -1,0 +1,49 @@
+img {
+  width: 10%;
+  object-fit: contain;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 1px 5px 5px #e0dcdc;
+}
+
+ul {
+  display: flex;
+  align-items: baseline;
+}
+
+li {
+  list-style: none;
+  padding: 1px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.material {
+  margin: 5px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.search {
+  padding: 10px;
+  width: 460px;
+  text-align: left;
+  border-radius: 10px;
+  border-color: rgb(109,13,190);
+  display: inline;
+}
+
+.searching {
+  display: block;
+  text-align: left;
+}

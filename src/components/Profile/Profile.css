@@ -1,0 +1,72 @@
+.profile {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.profile-frame {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-pic {
+  height: fit-content;
+}
+
+.profile-pic > img {
+  width: 120px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 100px;
+}
+
+.profile-data {
+  text-align: left;
+}
+
+.profile-info p {
+  padding: 0 5px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 10px;
+}
+
+.followBtn {
+  background-color: #1773EA;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 40px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.followBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px -10px #0115eb;
+}
+
+.changePic {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.changePic div {
+  padding: 15px 80px;
+}
+
+.upload-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
